@@ -361,7 +361,9 @@ input {
 }
 
 #home-cover {
-	background: ('app/assets/images/e3uy4k7ooyk-davide-cantelli.jpg');
+	background: #fff image-url("e3uy4k7ooyk-davide-cantelli.jpg") no-repeat top left;
+	z-index: -1;
+	position: relative;
 	background-size: cover;
 	min-height: 100%;
 }
