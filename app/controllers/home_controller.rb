@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
-
-  layout 'home'
+  skip_before_action :authenticate_user!
   
+  layout 'home'
+
   def index
   end
 

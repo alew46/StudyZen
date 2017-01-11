@@ -15,3 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore Google Calendar secret API key.
+/client_secret.json
+
+# Ignore application configuration
+/config/application.yml
