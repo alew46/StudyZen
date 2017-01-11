@@ -1,18 +1,20 @@
-<div id="home-cover">
+<div class="home-cover">
+  <div>
     <div class="row">
       <div class="col-md-6" style="padding-top:10%; padding-left:5%">
         <h1 style="color: white">StudyZen</h1>
         <h3 style="color: white; font-weight: 200; margin-bottom: 5px;">StudyZen is a free app that tells you how long you should study, based on neuroscience.</h3>
         <h3 style="color: white; font-weight: 200">Tell us what subject you're studying and when your test is. We'll tell you how long you should study and put reminders on your Google Calendar. It's free!</h3>
         <div  class="col-md-2" style="margin-top:20px;">
-          <%= button_to "Sign Up", new_user_registration_path, :class => "btn btn-theme", :method => :get %>
+          <%= button_to "Sign Up", new_user_registration_path, :class => "btn btn-theme", method: :get %>
         </div>
         <div  class="col-md-2" style="margin-top:20px;">
-          <%= button_to "Sign In", new_user_session_path, :class => "btn btn-theme", :method => :get %>
+          <%= button_to "Sign In", new_user_session_path, :class => "btn btn-theme", method: :get %>
         </div>
       </div>
       <div class="row-md-6" style="padding-top:10%; padding-right:5%">
         <img src="<%= asset_path( 'StudyZen iphone mockup.png' ) %>" />
       </div>
     </div>
+  </div>
 </div>

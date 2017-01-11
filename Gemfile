@@ -29,3 +29,11 @@
  gem 'bootstrap-sass'
 
  gem 'devise'
+
+ gem 'google-api-client'
+
+ gem 'omniauth'
+
+ gem 'omniauth-google-oauth2'
+
+ gem 'figaro', '1.0'
